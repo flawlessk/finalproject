@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -5,10 +8,12 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: brown;
+    color: black;
+    background-color: white;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-    color: hotpink;
+    color: white;
+    background-color: black;
 }
 .btn-outline-success {
     color: brown;
@@ -31,10 +36,26 @@ body{
 .navbar-nav li a{
     font-size: 20px;
     font-weight: 500;
-    color: brown;
+    color: black;
 }
 .container-fluid {
     padding-bottom: 20px;
+}
+.goup {
+    position: fixed;
+    color: black;
+    width: 60px;
+    height: 40px;
+    padding: 7px 0 0 7px;
+    z-index: 99999;
+}
+.goup a {
+    text-decoration: none;
+    color: black;
+}
+.goup a:hover {
+    background-color: black;
+    color: white;
 }
 .card-pistol img{
     width: 230px;
@@ -43,9 +64,21 @@ body{
 .card-deck {
     padding-bottom: 20px;
 }
-html {
-    scroll-behavior: smooth;
-}
 .card-sniper {
     height: 400px;
+}
+.sale-background {
+   margin-bottom: 20px;
+}
+.card-img-overlay h4 {
+    font-size: 60px;
+    color: blue;
+}
+.sale-background p{
+    color: yellow;
+    font-size: 25px;
+    font-weight: 600;
+}
+.sale-background-span{
+    text-decoration: line-through;
 }
