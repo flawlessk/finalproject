@@ -7,6 +7,8 @@ body{
     box-sizing: border-box;
 }
 
+/* navigation */
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
     background-color: white;
@@ -19,20 +21,13 @@ body{
     color: brown;
     border-color: brown;
 }
-/* .navbar {
-    position: fixed;
-    z-index: 9999;
-}  */
 .navbar-brand img{
-    height: 50px;
-    max-width: 300px;
-    min-width: 100px;
     width: 100%;
+    max-width: 150px;
 }
 .navbar-nav li {
     padding-right: 2.0rem;
 }
-
 .navbar-nav li a{
     font-size: 20px;
     font-weight: 500;
@@ -41,22 +36,30 @@ body{
 .container-fluid {
     padding-bottom: 20px;
 }
+
+/* GO UP SCROLL  */
+
 .goup {
     position: fixed;
-    color: black;
+    background-color: black;
     width: 60px;
     height: 40px;
     padding: 7px 0 0 7px;
     z-index: 99999;
+    bottom: 100px;
+    right: 50px;
 }
 .goup a {
     text-decoration: none;
-    color: black;
+    color:white;
 }
 .goup a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color:black;
 }
+
+/* BODY CARDS */
+
 .card-pistol img{
     width: 230px;
     padding-left: 30px;
@@ -70,15 +73,59 @@ body{
 .sale-background {
    margin-bottom: 20px;
 }
+.card-img-overlay h3 {
+    text-align: center;
+}
 .card-img-overlay h4 {
     font-size: 60px;
-    color: blue;
+    color: white;
+    text-align: center;
 }
 .sale-background p{
-    color: yellow;
+    color: white;
     font-size: 25px;
     font-weight: 600;
+    text-align: center;
 }
 .sale-background-span{
     text-decoration: line-through;
+}
+.background-image {
+    background-image: url(../pictures/footer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+}
+
+/* FOOTER */
+
+.footer-card {
+    background: none;
+    border: none;
+}
+.card-bottom {
+    background: none;
+    border: none;
+    font-weight: 700;
+}
+.form-group label {
+    color:white;
+    font-weight: 700;
+}
+.footer-contacts {
+    color: white;
+}
+.fa {
+    font-size: 30px;
+    color: rgb(24, 181, 192);
+    padding: 0 6px;
+}
+.Online-Shopping {
+    background: none;
+    border: none;
+}
+.Online-Shopping img{
+    width: 50px;
+    padding: 10px 5px;
 }
