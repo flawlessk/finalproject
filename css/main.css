@@ -4,7 +4,8 @@ html {
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* navigation */
@@ -67,8 +68,26 @@ body{
 .card-deck {
     padding-bottom: 20px;
 }
+.card-deck :hover {
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+    cursor: pointer;
+}
 .card-sniper {
     height: 400px;
+}
+.card-sniper:hover {
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+    -webkit-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+    cursor: pointer;
 }
 .sale-background {
    margin-bottom: 20px;
